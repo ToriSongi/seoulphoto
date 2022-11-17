@@ -4,16 +4,16 @@ $(document).ready(function(){
 		
 		$("#photograph").stop().animate({left:0},"fast",function(){
 		$(this).prepend($(this).children().last());
-		$(this).css("left","-670px");
+		$(this).css("left","-500px");
 		$("#photograph img").removeClass("center");
 		$("#photograph img").eq(2).addClass("center");
 				});
 			});
 		$("#right").click(function(){
 	
-		$("#photograph").stop().animate({left:"-1540px"},"fast",function(){
+		$("#photograph").stop().animate({left:"-1000px"},"fast",function(){
 		$(this).append($(this).children().first());
-		$(this).css("left","-670px");
+		$(this).css("left","-500px");
 		$("#photograph img").removeClass("center");
 		$("#photograph img").eq(2).addClass("center");
 				});
