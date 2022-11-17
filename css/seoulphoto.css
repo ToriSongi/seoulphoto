@@ -14,7 +14,8 @@ header>nav>div{flex:1; position:relative; text-align:center;  }
 		
 #wrapper nav:not(.subMenu) { color:#878787; border-bottom:2px solid gray;}
 #logo	{display:flex; height:150px; align-items:center; margin:70px 120px; }
-#logo a:last-child{margin-left:30px;}
+#logo a:last-child{margin-left:10px;}
+#logo img{width:78%;}
 hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 #wrapper>div>img{ margin-top:180px; padding:20px 0 5px 100px;}
 		.logIn{ color:#cfcfcf; margin-left:88%; }
@@ -98,8 +99,8 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		#notice>section>a{flex:4; color:#878787;}
 		#notice>section>h2::first-letter {color:yellow;}
 		
-		footer{margin:15px; border:10px solid yellow; border-style:ridge; display:flex; padding:60px; align-items:center; font-weight:normal;}
+		footer{margin:15px; border:10px solid yellow; border-style:ridge; display:flex; padding:45px; align-items:center; font-weight:normal;}
 		footer>img{width:150px;}
-		footer>div{flex:1; margin-left:30px; font-size:0.8rem; line-height:38pt; color:white; }
+		footer>div{flex:1; margin-left:50px; font-size:0.8rem; line-height:38pt; color:white; }
 		footer a{color:white;}
 		footer b>a{padding-left:80px;}
