@@ -43,9 +43,9 @@ $(document).ready(function(){
 	menu();
 	});
 	
-	/*$(".last").blur(function(){
-	menu();
-	});*/
+	$(".last").blur(function(){
+	$(".subMenu").stop().slideUp();
+	});
 	
 		function menu(){
 		$(".mainMenu").removeClass("active");
