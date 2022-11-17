@@ -55,7 +55,7 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		
 		#portfolio>button{font-size:5rem; font-weight:bold; top:46%; color:white; opacity:0.5; position:absolute; border:none; background:none;  }
 		
-		#photograph{display:flex; align-items:center; left:-500px;  position:relative; padding-bottom:60px;  padding-left:1px; }
+		#photograph{display:flex; align-items:center; left:-500px;  position:relative; padding-bottom:60px;  }
 		#photograph img{width:500px; }
 		
 		#left	{left:22%}
