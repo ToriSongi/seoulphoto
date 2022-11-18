@@ -22,7 +22,7 @@ $(document).ready(function(){
 		 
 		 $(".mainMenu").on("mouseenter click", function(){
 		$(".mainMenu").removeClass("active");
-		$("#black").stop().animate({height:"410px"});
+		$("#black").stop().animate({height:"390px"});
 		
 	
 		$(".subMenu").stop().slideDown();

@@ -24,8 +24,8 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		#ID,#password{padding:4px; margin-right:5px;}
 		label{font-size:0.6em; }
 		
-		.mainMenu {padding:20px 0 30px 0; color:#878787; font-weight:bold; display:block; }
-		.mainMenu:hover, .mainMenu.active{background:gray; color:black; text-decoration:none;}
+		.mainMenu {padding:20px 0 20px 0; color:#878787; font-weight:bold; display:block; }
+		.mainMenu:hover, .mainMenu.active{background:linear-gradient(120deg, black,#54565b,#999); color:black; text-decoration:none;}
 
 	
 		.subMenu	{position:absolute; width:100%; display:none; z-index:2; padding-top:40px;}
@@ -34,8 +34,8 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		
 		#black		{background:rgba(0, 0, 0, 0.7);  position:absolute; z-index:1; height:0; width:100%;  }
 		
-		#info{background:url('../images/pattern.jpg'); height:1182px; margin-top:180px; padding-top:100px;}
-		#info>section{display:flex; margin:110px 80px;}
+		#info{background:url('../images/pattern.jpg'); height:1000px; margin-top:180px; padding-top:100px;}
+		#info>section{display:flex; margin:65px 80px;}
 		#info>section>h2{display:none;}
 		#info>section>img{display:inline-block; margin-left:80px; max-width:70%;}
 		
@@ -46,24 +46,24 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		figure{margin-right:80px;}
 		figcaption{color:yellow; text-align:right; opacity:0.8;}
 		
-		#portfolio{ margin-top:130px; padding-bottom:70px; overflow:hidden; height:1100px; position:relative;  }
+		#portfolio{ margin-top:130px; padding-bottom:70px; overflow:hidden; height:1020px; position:relative;  }
 		#portfolio>section{display:flex; margin:40px 100px 100px 100px; align-items:center;  }
 		#portfolio>section>h2{display:none;}
 		.port{display:inline-block; margin-left:80px; width:460px;}
 		
-		#portfolio>a{color:#cfcfcf; float:right; padding:10px 0; margin-top:10px; margin-right:2vw; }
+		#portfolio>a{color:#cfcfcf; float:right; padding:10px 0; margin-top:10px; margin-right:4vw; }
 		
-		#portfolio>button{font-size:5rem; font-weight:bold; top:46%; color:white; opacity:0.5; position:absolute; border:none; background:none;  }
+		#portfolio>button{font-size:5rem; font-weight:bold; top:50%; color:white; opacity:0.5; position:absolute; border:none; background:none;  }
 		
 		#photograph{display:flex; align-items:center; left:-500px;  position:relative; padding-bottom:60px;  }
 		#photograph img{width:500px; }
 		
-		#left	{left:22%}
-		#right{right:22%;}
+		#left	{left:22%; text-shadow:1px 2px 4px rgba(0,0,0,0.6);}
+		#right{right:22%; text-shadow:1px 2px 4px rgba(0,0,0,0.6);}
 		.center{transform:scale(1.3); }
 		
-		#curri{margin:0 20px;  background:url('../images/road.png'); height:700px; position:relative;   }
-		#curri>section{display:flex; margin:80px 80px;  }
+		#curri{margin:40 20px;  background:url('../images/road.png'); height:680px; position:relative;  padding-top:20px; }
+		#curri>section{display:flex; margin:80px;  }
 		#curri>section>h2{display:none;}
 		#curri>section>img{width:400px;}
 		#curri>section>p{font-size:1.6rem;}
