@@ -35,7 +35,7 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 		#black		{background:rgba(0, 0, 0, 0.7);  position:absolute; z-index:1; height:0; width:100%;  }
 		
 		
-#meteor { width:100%; height:310px;; top:0px; position:absolute;  z-index:1;}	
+#meteor { width:100%; height:340px; top:0px; position:absolute;  z-index:1; }	
 .meteor1{transform:scale(2); opacity:0.2;  animation:falling 1.5s infinite linear; position:absolute;  z-index:1}
 @keyframes falling{
 	0%{opacity:0.2; left:920px;  top:0px;}
