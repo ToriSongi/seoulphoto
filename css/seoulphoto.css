@@ -54,11 +54,11 @@ hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 	
 .meteor3{transform:scale(1.2); opacity:0.2;  animation:falling2 2s infinite linear; animation-delay:1.5s; position:absolute;  z-index:1}
 @keyframes falling2{
-	0%{opacity:0.2; left:1100px;  top:0px;}
+	0%{opacity:0.2; left:1050px;  top:0px;}
 
-	50%{opacity:0.4; left:1300px; top:100px;}
+	50%{opacity:0.4; left:1250px; top:100px;}
 	
-100%{opacity:0.2; left:1490px; top:190px; } }
+100%{opacity:0.2; left:1450px; top:190px; } }
 	
 		
 		
