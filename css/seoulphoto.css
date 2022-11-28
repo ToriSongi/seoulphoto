@@ -13,8 +13,8 @@ header>nav{align-items:flex-start; display:flex; }
 header>nav>div{flex:1; position:relative; text-align:center;  }
 		
 #wrapper nav:not(.subMenu) { color:#878787; border-bottom:2px solid gray; }
-#logo	{display:flex; height:150px; align-items:center; margin:70px 120px; }
-#logo a:last-child{margin-left:10px;}
+#logo	{display:flex; height:150px; align-items:center; margin:70px 60px 70px 90px; }
+#logo a:first-child{margin-right:10px;}
 #logo img{width:78%;}
 hr{width:1500px; margin-left:5%; border-width:1px; display:none;}
 #night>img{ margin-top:180px; padding:20px 0 10px 100px;}
